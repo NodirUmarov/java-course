@@ -1,17 +1,22 @@
 package com.demo.shapes;
 
-public class Customer extends User {
+public class Customer extends Person {
 
-    private String wallet; // Homework
+    private Wallet wallet; // Homework
 
     public Customer() {
     }
 
-    public String getWallet() {
-        return wallet;
+    public void createWallet() {
+        wallet = new Wallet();
     }
 
-    public void setWallet(String wallet) {
-        this.wallet = wallet;
+    public void addCardToWallet() {
+        wallet.addCard();
     }
+
+
 }
+
+
+        //wallet.addCard(new Card("Turon Bank", "Nodir Umarov", 5000.0, 9856_8899_5534_5464L));
