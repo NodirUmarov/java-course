@@ -2,7 +2,7 @@ package com.demo.shapes;
 
 import java.time.LocalDate;
 
-public class User {
+public class Person {
     public long identification;
     private String email;
     private String firstName;

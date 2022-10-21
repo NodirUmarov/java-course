@@ -1,6 +1,6 @@
 package com.demo.shapes;
 
-public class Employee extends User {
+public class Employee extends Person {
 
     private String position;
     private int salary;
